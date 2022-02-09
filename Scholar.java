@@ -9,7 +9,7 @@ public class Scholar extends Person
 
   public String toString()
   {
-    return("The Scholar's name is: " + super.toString() + "The major is " + major);
+    return("The Scholar's name is: " + super.toString() + "The major is " + major); //You can also get scholar name by typing super.name and super.birth
   }
 
 
