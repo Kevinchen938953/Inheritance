@@ -3,7 +3,7 @@ public class Scholar extends Person
   private String major;
   public Scholar(String name, int birth, String major)
   {
-    super(name, birth);
+    super(name, birth);//Anything that is related to the super class
     this.major = major;
   }
 
